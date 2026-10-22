@@ -43,8 +43,8 @@ export class ListaLivrosComponent implements OnInit {
         livros: livrosPorGenero.get(genero.id) ?? []
     }));
 
-      //this.livros = livros;
-      //console.log(this.livros);
+      this.livros = livros;
+      console.log(this.livros);
     });
   }
 
